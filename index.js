@@ -18,7 +18,8 @@ client.on('message', message => {
 		message.channel.send('Pong!');
 	}
 	else if (command === 'blah') {
-		message.channel.send('Meh.');
+		message.channel.send('Meh. Go away!');
+		message.channel.send('This is pretty cool!');
 	}
 });
 
